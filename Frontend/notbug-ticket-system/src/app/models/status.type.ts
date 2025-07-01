@@ -1,0 +1,6 @@
+export enum Status {
+  SUBMITTED = 'SUBMITTED',
+  INPROGRESS = 'INPROGRESS',
+  RESOLVED = 'RESOLVED',
+  CLOSED = 'CLOSED',
+}

@@ -1,0 +1,16 @@
+<div class="SubmitTicket">
+  <form class="SubmitTicket__Form" [formGroup]="ticketForm">
+    <div class="SubmitTicket__Title">
+      <label>Ticket Title</label>
+      <input id="TicketTitle" formControlName="ticketTitle" />
+    </div>
+    <div class="SubmitTicket__Title">
+      <label>Ticket Description</label>
+      <input
+        id="TicketDescription"
+        type="text"
+        formControlName="ticketDescription"
+      />
+    </div>
+  </form>
+</div>

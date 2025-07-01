@@ -1,0 +1,1 @@
+Mock data created for development of the frontend website. End result is to remove this folder after implementing a DB with same data + API which would allow to request the data from the DB

@@ -1,0 +1,15 @@
+<p>ticket works!</p>
+<div class="TicketData">
+  <div class="TicketData__Title">
+    {{ ticket$$().title }}
+  </div>
+  <div class="TicketData__Status">
+    {{ ticket$$().status }}
+  </div>
+  <div class="TicketData__ExpandButton">
+    <button [routerLink]="ticket$$().id">Expand</button>
+  </div>
+  <div class="TicketData__DetailsButton">
+    <a [routerLink]="ticket$$().id"> Go to Details ></a>
+  </div>
+</div>
